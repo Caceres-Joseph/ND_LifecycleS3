@@ -1,0 +1,19 @@
+{
+    "Rules": [
+        {
+            "ID": "Regla-1 Lifecycle",
+            "Filter": {},
+            "Status": "Enabled",
+            "Transitions": [
+                {
+                    "Days": 60,
+                    "StorageClass": "INTELLIGENT_TIERING"
+                },
+                {
+                    "Days": 180,
+                    "StorageClass": "GLACIER"
+                }
+            ]
+        }
+    ]
+}
